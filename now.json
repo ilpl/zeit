@@ -4,5 +4,6 @@
   "routes": [
     {"src": "/1/(.*)","dest": "http://198.12.70.49/$1"},
     {"src": "/2/(.*)","dest": "http://107.172.145.187/$1"}
+    {"src": "/3/(.*)","dest": "http://vir-dallas.freehello.cf/$1"}
   ]
 }
