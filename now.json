@@ -1,0 +1,7 @@
+{
+  "name": "proxy",
+  "version": 2,
+  "routes": [
+    {"src": "/v2ray/(.*)","dest": "http://198.12.70.49/$1"}
+  ]
+}
