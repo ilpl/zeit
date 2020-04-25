@@ -2,8 +2,8 @@
   "name": "v2",
   "version": 2,
   "routes": [
-    {"src": "/view-source", "dest": "https://18.140.58.61/ws"},
-    {"src": "/http/(.*)/(.*)/(.*)","dest": "http://$1:$2/$3"},
+    {"src": "/view-source", "dest": "https://18.140.58.61/ws","headers": { "Upgrade": "websocket" }},
+    {"src": "/http/(.*)/(.*)/(.*)","dest": "http://$1:$2/$3","headers": { "Upgrade": "websocket" }},
     {"src": "/https/(.*)/(.*)/(.*)","dest": "https://$1:$2/$3"},
   	{"src": "/(.*)","dest": "http://23.95.233.130/$1"}
   ]
