@@ -6,6 +6,7 @@
     {"src": "/2/(.*)","dest": "http://107.172.145.187/$1"},
     {"src": "/3/(.*)","dest": "http://vir-dallas.freehello.cf/$1"},
     {"src": "/http/(.*)/(.*)/(.*)","dest": "http://$1:$2/$3"},
-    {"src": "/https/(.*)/(.*)/(.*)","dest": "https://$1:$2/$3"}
+    {"src": "/https/(.*)/(.*)/(.*)","dest": "https://$1:$2/$3"},
+    { "source": "/view-source", "destination": "https://18.140.58.61/ws"}
   ]
 }
