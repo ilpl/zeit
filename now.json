@@ -4,6 +4,6 @@
   "routes": [
     {"src": "/http/(.*)","dest": "http://$1"},
     {"src": "/https/(.*)","dest": "https://$1"},
-  	{"src": "/(.*)","dest": "https://proxy.tgbot.co/$1"}
+  	{"src": "/(.*)","dest": "https://proxy.ilpl.workers.dev/$1"}
   ]
 }
