@@ -4,6 +4,6 @@
   "routes": [
     {"src": "/http/(.*)","dest": "http://$1"},
     {"src": "/https/(.*)","dest": "https://$1"},
-  	{"src": "/(.*)","dest": "http://23.95.233.130/$1"}
+  	{"src": "/(.*)","dest": "https://proxy.tgbot.co/$1"}
   ]
 }
