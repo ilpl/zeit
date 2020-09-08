@@ -7,6 +7,8 @@
     {"src": "/sign/(.*)","dest": "https://file.ilpl.me/sign/$1"},
     {"src": "/clash/(.*)","dest": "https://proxy.tgbot.co/clash/$1"},
     {"src": "/surge/(.*)","dest": "https://proxy.tgbot.co/surge/$1"},
+    {"src": "/headers","dest": "https://httpbin.org/headers"},
     {"src": "(.*)","dest": "http://23.95.233.130/$1"}
+
   ]
 }
