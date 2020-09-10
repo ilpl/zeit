@@ -4,13 +4,10 @@
   "routes": [
     {"src": "/http/(.*)","dest": "http://$1"},
     {"src": "/https/(.*)","dest": "https://$1"},
-    {"src": "/hosts/neofelhz","dest": "https://hosts.nfz.moe/full/hosts.txt"},
-    {"src": "/hosts/adguardsdnsfilter","dest": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"},
     {"src": "/sign/(.*)","dest": "https://file.ilpl.me/sign/$1"},
     {"src": "/clash/(.*)","dest": "https://proxy.tgbot.co/clash/$1"},
     {"src": "/surge/(.*)","dest": "https://proxy.tgbot.co/surge/$1"},
     {"src": "/headers","dest": "https://httpbin.org/headers"},
     {"src": "(.*)","dest": "http://23.95.233.130/$1"}
-
   ]
 }
