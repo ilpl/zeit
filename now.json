@@ -4,6 +4,7 @@
   "routes": [
     {"src": "/http/(.*)","dest": "http://$1"},
     {"src": "/https/(.*)","dest": "https://$1"},
+    {"src": "/openwrt/(.*)","dest": "https://downloads.openwrt.org/$1"},
     {"src": "/sign/(.*)","dest": "https://file.ilpl.me/sign/$1"},
     {"src": "/clash/(.*)","dest": "https://proxy.tgbot.co/clash/$1"},
     {"src": "/surge/(.*)","dest": "https://proxy.tgbot.co/surge/$1"},
