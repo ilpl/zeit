@@ -9,7 +9,7 @@
     {"src": "/clash/(.*)","dest": "https://proxy.tgbot.co/clash/$1"},
     {"src": "/surge/(.*)","dest": "https://proxy.tgbot.co/surge/$1"},
     {"src": "/headers","dest": "https://httpbin.org/headers"},
-    //{"src": "(.*)","dest": "http://23.95.233.130/$1"}
+    {"src": "/nginx/(.*)","dest": "http://23.95.233.130/$1"},
     {"src": "(.*)","dest": "https://jp.hostapi.cf/$1"} 
   ]
 }
