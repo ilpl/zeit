@@ -2,14 +2,11 @@
   "name": "v2",
   "version": 2,
   "routes": [
-    {"src": "/http/(.*)","dest": "http://$1"},
-    {"src": "/https/(.*)","dest": "https://$1"},
-    {"src": "/openwrt/(.*)","dest": "https://downloads.openwrt.org/$1"},
+    {"src": "/http/(.*)","dest": "http://$1","headers": {"cache-control": "public, max-age=63072000"}},
+    {"src": "/https/(.*)","dest": "https://$1","headers": {"cache-control": "public, max-age=63072000"}},
+    {"src": "/openwrt/(.*)","dest": "https://downloads.openwrt.org/$1","headers": {"cache-control": "public, max-age=63072000"}},
     {"src": "/sign/(.*)","dest": "https://file.ilpl.me/sign/$1"},
-    {"src": "/clash/(.*)","dest": "https://proxy.tgbot.co/clash/$1"},
-    {"src": "/surge/(.*)","dest": "https://proxy.tgbot.co/surge/$1"},
     {"src": "/headers","dest": "https://httpbin.org/headers"},
-    {"src": "/nginx/(.*)","dest": "http://23.95.233.130/$1"},
-    {"src": "(.*)","dest": "https://jp.hostapi.cf/$1"}  
+    {"src": "/(.*)","dest": "http://23.95.233.130/$1"}
   ]
 }
